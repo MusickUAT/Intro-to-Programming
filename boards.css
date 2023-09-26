@@ -1,12 +1,12 @@
-title {
-    background-color: darkgreen;
-     font-size: 1.0em;
-}
-body {
-    background-color: blueviolet;
-     font-size: 2.1em;
-}
-p {
+body{
+    background-color: red
+} 
+h1{
     text-align: center;
-    color: darkred;
+    color: whitesmoke
+    margin: right 200px;
+}
+p{
+    text-align: center;
+    color: green
 }
