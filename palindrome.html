@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="strings.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "palindrome.js"></script>
+    <title>Palindrome Checker</title>
+</head>
+<body>
+    <nav>
+        <h2>Navigation</h2>
+        <a href="./index.html">Home</a><br>
+        <a href="./boards.html">Boards</a><br>
+        <a href="./strings.html">Strings</a><br>
+        <a href="./final project.html">Table</a>
+    </nav>
+<form>
+<!--IDing this paragraph as "updated string" allows the connected JS file to put the answers here-->
+<p style = "font-family: fantasy;" id = "updated string"></p>
+<form id = "str" onsubmit="return false">
+    <br>
+    <!--This line of code puts in a text box that works with the JS file-->
+    String 1: <input type = "text" id = "initString"/>
+    <input type = "submit" onclick = "strings();"/>
+</form>
+
+    
+</body>
+</html>
