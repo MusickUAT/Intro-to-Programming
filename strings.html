@@ -2,13 +2,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="boards.css">
+    <link rel="stylesheet" href="strings.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src = "strings.js"></script>
     <title>Strings</title>
 </head>
 <body>
+    <nav>
+        <h2>Navigation</h2>
+        <a href="./index.html">Home</a><br>
+        <a href="./boards.html">Boards</a><br>
+        <a href="./final project.html">Table</a><br>
+        <a href="./palindrome.html">Palindrome</a>
+    </nav>
     <!--This line of code tells the user to put in their name and zip code-->
     <h1> Please insert name and zip code to start</h1>
     <!--This line of code shows the JS code where to put the "if" statement results-->
@@ -24,16 +31,13 @@
        Zip Code:    <input type = "number" id = "zipCode"/>
        <!--This line of code links the funtion from the JS file to this one-->
        <input type = "submit" onclick="CheckInput();">
-    
-    
     </form>
-    <!--IDing this paragraph as "updated string" allows the connected JS file to put the answers here-->
-    <p style = "font-family: fantasy;" id = "updated string"></p>
-    <form id = "str" onsubmit="return false">
-        <br>
-        <!--This line of code puts in a text box that works with the JS file-->
-        String 1: <input type = "text" id = "initString"/>
-        <input type = "submit" onclick = "strings();"/>
-    </form>
+    
+   
+    <!--These 3 lines of code incorporate audio into the webpage depicted-->
+    <audio controls>
+        <source src="Shia LaBeouf - Just Do It - QuickSounds.com.mp3" type="audio/mpeg"></source>
+    </audio>
+    
 </body>
 </html>
