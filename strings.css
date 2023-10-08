@@ -1,0 +1,14 @@
+body{
+    background-color: forestgreen;
+    color: violet;
+} 
+h1{
+    text-align: center;
+    color: grey
+    margin: right 200px;
+}
+p{
+    text-align: center;
+    color: yellow;
+    line-height: 30px;
+}
