@@ -1,22 +1,3 @@
-function strings()
-{
-
-    var splitString = str1.split("");
-    var reverseString = splitString.reverse();
-    var joinString = reverseString.join("");
-
-if (str1 == joinString)
-{
-    document.getElementById("updated string").innerHTML = "This is a palindrome"
-
-}
-else
-{
-    document.getElementById("updated string").innerHTML = "This is NOT a palindrome"
-}
-
-}
-
 function CheckInput()
 {
     //<!--These two lines of code are to create the values of first and last name-->
